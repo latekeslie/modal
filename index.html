@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  <link rel="stylesheet" type="text/css" href="modal.css" media="screen" />
+  </head>
+  <body style="background-color: #faebd7;">
+
+    <div style="margin: 0 auto; background-color: #faebd7; width: 100%;">
+
+      <div style="margin: 0 auto; background-color: #faebd7; width: 75%; margin-top: 10rem;">
+        <button data-selector="data-opacity-button" class=""
+        style="background-color: tomato; padding: 1rem 3rem; font-weight: bold;">THIS MODAL USES OPACITY!
+        </button>
+        <button data-selector="data-create-button" class="create-element-modal"
+        style="border: none; background-color: #98ff98; padding: 1rem 3rem; margin-top: 2rem; font-weight: bold;">
+        THIS MODAL USES CREATE ELEMENT!
+        </button>
+
+        <div data-selector="data-opacity-modal" class="opacity-modal">
+          <div style="margin: 0 auto;" class="button-container">
+            <h3 class="">You clicked it</h3>
+            <img src="http://placekitten.com/500/500" alt="">
+            <button style="border: none; background-color: #98ff98; padding: 1rem 3rem; margin-top: 2rem; font-weight: bold;"
+             data-selector="data-close-opacity">CLOSE</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
+    <script src='modal.js' type="text/javascript"></script>
+  </body>
+</html>
